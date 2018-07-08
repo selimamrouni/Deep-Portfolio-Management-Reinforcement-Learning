@@ -88,7 +88,7 @@ The agent is 'training sensitive' but it is not 'input state sensitive'.
 
 In order to make the policy more dynamic, we think of using a discrete action space using pre-defined return thresholds. We'll turn the problem replacing the softmax by a tanh or by turning it into a classification task. 
 
-![results2](results2.png)
+![results2](result2.png)
 
 ## Author
 
