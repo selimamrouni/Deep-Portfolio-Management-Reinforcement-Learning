@@ -52,7 +52,7 @@ The portfolio manager agent is set-up in the way:
 - The <b>action</b> is the vector of investment weight (at time t).
 - The <b>reward function</b> is defined such as it is the agent's return minus a baseline’s return (baseline is an equi weighted agent - invest in all the possible stocks in the same way) minus a term proportional to the maximum of the weight (this term is set-up to make the agent avoids to invest fully in one stock)
 
-![RLFramework](.../print/RLFramework.png)
+![RLFramework](../print/RLFramework.png)
 ![rewardFunction](print/rewardFunction.png)
 
 ### Deep Policy Function Architecture
