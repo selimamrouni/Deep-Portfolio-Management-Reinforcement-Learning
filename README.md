@@ -5,10 +5,10 @@ This repository presents our work during a project realized in the context of th
 This Deep Policy Network Reinforcement Learning project is our implementation and further research of the original paper [A Deep Reinforcement Learning Framework for the
 Financial Portfolio Management Problem (Jiang et al. 2017)](https://arxiv.org/abs/1706.10059). 
 
-<u>Objective:</u> The problem is the one of automated portfolio management: given a set of stocks, how to best allocate money through time to
+<b>Objective:</b> The problem is the one of automated portfolio management: given a set of stocks, how to best allocate money through time to
 maximize returns at the end of a certain number of timesteps. In this way, we aim to build an automated agent which best allocates the weights of its investment between different stocks.
 
-<u>Data:</u> Jiang et al. use 13 crypto-currencies from the Poloniex exchange. They take into account the open, high, low, close (OHLC) prices,
+<b>Data:</b> Jiang et al. use 13 crypto-currencies from the Poloniex exchange. They take into account the open, high, low, close (OHLC) prices,
 minute per minute. They allow a portfolio rebalance every 30 minutes. They reprocess the data and create a tensor based on the last
 50 time-steps.  
 
