@@ -40,7 +40,7 @@ The columns correspond to:
 - Low(t-1)/Open(t-1)
 - Open(t)/Open(t-1)
 
-![tensor](inputTensor.png)
+![tensor](./print/inputTensor.png)
 
 
 ## Deep Policy Network Design 
@@ -53,7 +53,7 @@ The portfolio manager agent is set-up in the way:
 - The <b>reward function</b> is defined such as it is the agent's return minus a baseline’s return (baseline is an equi weighted agent - invest in all the possible stocks in the same way) minus a term proportional to the maximum of the weight (this term is set-up to make the agent avoids to invest fully in one stock)
 
 ![RLFramework](./print/RLFramework.png)
-![rewardFunction](rewardFunction.png)
+![rewardFunction](./print/rewardFunction.png)
 
 ### Deep Policy Function Architecture
 
@@ -70,14 +70,14 @@ The output of the neural network is the vector of the actions the agent will tak
 
 Then, the environment can compute the new vector of weights, the new portfolio and instant reward.
 
-![DLArchiteture](DLArchiteture.png)
+![DLArchiteture](./print/DLArchiteture.png)
 
 ## Training and Testing of the agent
 
 This part is still in progress as of today. Our thought is we are still not able to reproduce the paper's results. 
 Indeed, even if the algorithm demonstrated the capacity to identify high-potential stocks which maximizes results. However, it has a little potential to change the position through the trading process. 
 
-![results](results.png)
+![results](./print/results.png)
 
 
 ## Understanding the problem & possible improvement
@@ -88,7 +88,7 @@ The agent is 'training sensitive' but it is not 'input state sensitive'.
 
 In order to make the policy more dynamic, we think of using a discrete action space using pre-defined return thresholds. We'll turn the problem replacing the softmax by a tanh or by turning it into a classification task. 
 
-![results2](result2.png)
+![results2](./print/result2.png)
 
 ## Author
 
