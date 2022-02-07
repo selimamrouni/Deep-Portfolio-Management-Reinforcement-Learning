@@ -1,5 +1,9 @@
 # A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem
 
+[![DOI](https://zenodo.org/badge/140182058.svg)](https://zenodo.org/badge/latestdoi/140182058)
+
+
+
 This repository presents our work during a project realized in the context of the [IEOR 8100 Reinforcement Leanrning](https://github.com/ieor8100/rl) at Columbia University.
 
 This Deep Policy Network Reinforcement Learning project is our implementation and further research of the original paper [A Deep Reinforcement Learning Framework for the
